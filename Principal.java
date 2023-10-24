@@ -7,7 +7,7 @@ public class Principal {
         Carro carQuatroParametros = new Carro(18, "dodge Ram 2023", 500.000, "Preta", "MIN 2808");
 
         System.out.println(carAro.getAro());
-        System.out.println(carQuatroParametros);
+        System.out.println(carQuatroParametros.getAro()+ " " + carQuatroParametros.getCor());
         System.out.println(carAro);
         System.out.println(carAro);
        }
